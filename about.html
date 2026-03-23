@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sri Sakthi Construction</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+ 
+<!-- ===== TOP BAR ===== -->
+<div class="top-bar">
+  <div class="top-bar-left">
+    <div class="top-item">
+      <span class="top-icon"><i class="fa-regular fa-envelope"></i></span>
+      <div>
+        <span class="top-label">Email</span>
+        <span class="top-value">srisakthiconstructions928@gmail.com</span>
+      </div>
+    </div>
+    <div class="top-item">
+      <span class="top-icon"><i class="fa-solid fa-phone-volume"></i></span>
+      <div>
+        <span class="top-label">Phone</span>
+        <span class="top-value">+91-88078 88928</span>
+      </div>
+    </div>
+    <div class="top-item">
+      <span class="top-icon"><i class="fa-regular fa-clock"></i></span>
+      <div>
+        <span class="top-label">Time</span>
+        <span class="top-value">Sun - Fri (08AM - 10PM)</span>
+      </div>
+    </div>
+  </div>
+  <div class="top-bar-right">
+    <span class="follow-text">Follow Us:</span>
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://wa.me/918807888928" target="_blank">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+      
+    </div>
+  </div>
+</div>
+ 
+<!-- ===== MAIN NAVBAR ===== -->
+<header class="navbar">
+  <div class="nav-container">
+    <!-- Logo -->
+   <div class="logo">
+  <img src="images/logo.png" alt="Sri Sakthi Construction"/>
+  <div class="brand-name">
+    <span class="brand-top">SRI SAKTHI</span>
+    <span class="brand-bottom">CONSTRUCTION</span>
+  </div>
+</div>
+ 
+    <!-- Desktop Nav Links -->
+    <nav class="nav-links">
+      <a href="index.html" class="nav-link ">Home</a>
+      <a href="about.html" class="nav-link active">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="projects.html" class="nav-link">projects</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+ 
+    <a href="#" class="btn-quote" onclick="openQuoteModal('Basic Package')">
+  Get A Quote ↗
+</a>
+ 
+    <!-- Hamburger -->
+    <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+ 
+<!-- ===== MOBILE DRAWER ===== -->
+<div class="mobile-overlay" id="overlay"></div>
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="drawer-header">
+  <div class="logo">
+  <img src="images/logo.png" alt="Sri Sakthi Construction"/>
+  <div class="brand-name">
+    <span class="brand-top">SRI SAKTHI</span>
+    <span class="brand-bottom">CONSTRUCTION</span>
+  </div>
+</div>
+    <button class="close-btn" id="closeBtn">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+ 
+  <nav class="drawer-links">
+    <a href="index.html" class="drawer-link ">Home</a>
+    <a href="about.html" class="drawer-link active">About</a>
+    <a href="services.html" class="drawer-link">Services</a>
+    <a href="projects.html" class="drawer-link">Projects</a>
+    <a href="contact.html" class="drawer-link">Contact</a>
+  </nav>
+ 
+  <div class="drawer-contact">
+    <a href="mailto:hunterproperty14@gmail.com">
+      <span class="d-icon"><i class="fa-regular fa-envelope"></i></span>
+      srisakthiconstructions928@gmail.com
+    </a>
+    <a href="tel:+917550110784">
+      <span class="d-icon"><i class="fa-solid fa-phone-volume"></i></span>
+      +91-88078 88928
+    </a>
+  </div>
+ 
+  <div class="drawer-social">
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="https://wa.me/918807888928" target="_blank">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+    
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    
+  </div>
+</div>
+
+
+<section class="tagline-section">
+ 
+  <!-- Background image -->
+  <div class="tagline-bg">
+    <img src="images/tagline-bg.jpg" alt="Building Background" />
+  </div>
+ 
+  <!-- Overlay -->
+  <div class="tagline-overlay"></div>
+ 
+  <!-- Text -->
+  <div class="tagline-content">
+    <h2>
+      We Don't <span class="highlight">Just Build</span> Structures<br>
+      We Build <span class="highlight">Dreams</span>
+    </h2>
+  </div>
+ 
+</section>
+
+<section class="about-section">
+  <div class="about-container">
+ 
+    <!-- ── LEFT: Images ── -->
+    <div class="about-images">
+      <!-- Background big image -->
+      <div class="img-main">
+        <img src="images/about-building.jpg" alt="Building" />
+      </div>
+      <!-- Foreground small image -->
+      <div class="img-secondary">
+        <img src="images/about-office.jpg" alt="Office" />
+      </div>
+      <!-- Experience badge -->
+      <div class="exp-badge">
+        <span class="exp-number">15+</span>
+        <span class="exp-text">Years Of<br>Experience</span>
+      </div>
+    </div>
+ 
+    <!-- ── RIGHT: Content ── -->
+    <div class="about-content">
+ 
+      <!-- Tag -->
+      <div class="about-tag">
+        <i class="fa-solid fa-helmet-safety"></i>
+        <span>About Us</span>
+      </div>
+ 
+      <!-- Heading -->
+      <h2 class="about-heading">
+        We Are The <span class="highlight">Best And Expert</span><br>
+        For Construction
+      </h2>
+ 
+      <!-- Paragraphs -->
+      <p class="about-para">
+       Sri Sakthi Construction is not just a real estate company—it’s a symbol of trust, quality, and commitment. With strong roots and years of experience in the construction industry, we specialize in delivering premium residential homes, commercial spaces, and builder-ready land projects designed to match your lifestyle and future goals.
+      </p>
+      <p class="about-para">
+      From building dream homes to handling commercial construction, real estate development, and land partnerships, we bring deep local market knowledge, transparent processes, and uncompromising quality to every project. Whether you are planning to buy property, sell land, lease commercial spaces, or invest in real estate, our goal is to turn your vision into reality—on time and with precision.
+      </p>
+      <p class="about-para">
+        At Sri Sakthi Construction, we don’t just build structures—we create lasting value, trust, and relationships that stand strong for generations.
+      </p>
+ 
+      <!-- CTA Button -->
+      <a href="about.html" class="btn-discover">Discover More ↗</a>
+ 
+    </div>
+  </div>
+</section>
+
+
+<section class="stats-section">
+  <div class="stats-container">
+ 
+    <div class="stat-item">
+      <div class="stat-icon">
+        <i class="fa-solid fa-trophy"></i>
+      </div>
+      <div class="stat-info">
+        <div class="stat-number">
+          <span class="count" data-target="15">0</span><span class="plus">+</span>
+        </div>
+        <p class="stat-label">Yrs Experience</p>
+      </div>
+    </div>
+ 
+    <div class="stat-divider"></div>
+ 
+    <div class="stat-item">
+      <div class="stat-icon">
+        <i class="fa-solid fa-helmet-safety"></i>
+      </div>
+      <div class="stat-info">
+        <div class="stat-number">
+          <span class="count" data-target="45">0</span><span class="plus">+</span>
+        </div>
+        <p class="stat-label">Projects Done</p>
+      </div>
+    </div>
+ 
+    <div class="stat-divider"></div>
+ 
+    <div class="stat-item">
+      <div class="stat-icon">
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <div class="stat-info">
+        <div class="stat-number">
+          <span class="count" data-target="100">0</span><span class="plus">+</span>
+        </div>
+        <p class="stat-label">Happy Clients</p>
+      </div>
+    </div>
+ 
+    <div class="stat-divider"></div>
+ 
+    <div class="stat-item">
+      <div class="stat-icon">
+        <i class="fa-solid fa-people-group"></i>
+      </div>
+      <div class="stat-info">
+        <div class="stat-number">
+          <span class="count" data-target="20">0</span><span class="plus">+</span>
+        </div>
+        <p class="stat-label">Experts Staff</p>
+      </div>
+    </div>
+ 
+  </div>
+</section>
+
+
+<section class="process-section">
+  <div class="process-container">
+ 
+    <!-- ── Header ── -->
+    <div class="process-header">
+      <div class="process-tag">
+        <i class="fa-solid fa-helmet-safety"></i>
+        <span>Working Process</span>
+      </div>
+      <h2 class="process-heading">
+        Easy Steps For <span class="highlight">Sri Sakthi<br>Construction</span>
+      </h2>
+      <div class="heading-underline">
+        <span class="line-short"></span>
+        <span class="line-long"></span>
+      </div>
+    </div>
+ 
+    <!-- ── Steps Grid ── -->
+    <div class="process-grid">
+ 
+      <!-- Step 1 -->
+      <div class="process-card">
+        <div class="card-top-row">
+          <span class="step-number">01</span>
+          <div class="step-icon">
+            <i class="fa-solid fa-clipboard-list"></i>
+          </div>
+        </div>
+        <h3 class="step-title">Choose Service</h3>
+        <p class="step-desc">From home builds to office interiors find the right construction service in Chennai for you.</p>
+      </div>
+ 
+      <!-- Step 2 -->
+      <div class="process-card">
+        <div class="card-top-row">
+          <span class="step-number">02</span>
+          <div class="step-icon">
+            <i class="fa-solid fa-people-arrows"></i>
+          </div>
+        </div>
+        <h3 class="step-title">Free Consultation</h3>
+        <p class="step-desc">Discuss your ideas with our team for a free, no-obligation planning session.</p>
+      </div>
+ 
+      <!-- Step 3 -->
+      <div class="process-card">
+        <div class="card-top-row">
+          <span class="step-number">03</span>
+          <div class="step-icon">
+            <i class="fa-solid fa-sack-dollar"></i>
+          </div>
+        </div>
+        <h3 class="step-title">Estimate Budget</h3>
+        <p class="step-desc">Know your budget upfront. We provide clear construction pricing in Chennai.</p>
+      </div>
+ 
+      <!-- Step 4 -->
+      <div class="process-card">
+        <div class="card-top-row">
+          <span class="step-number">04</span>
+          <div class="step-icon">
+            <i class="fa-solid fa-tower-broadcast"></i>
+          </div>
+        </div>
+        <h3 class="step-title">Project Production</h3>
+        <p class="step-desc">Once we begin, expect on-site supervision, real-time reports, and timely delivery.</p>
+      </div>
+ 
+    </div><!-- /process-grid -->
+ 
+  </div>
+</section>
+
+
+<section class="why-section">
+  <div class="why-container">
+ 
+    <!-- ── LEFT: Content ── -->
+    <div class="why-content">
+ 
+      <div class="why-tag">
+        <i class="fa-solid fa-helmet-safety"></i>
+        <span>Why Choose Us</span>
+      </div>
+ 
+      <h2 class="why-heading">
+        We Deliver Expertise You<br>
+        Can Trust Our <span class="highlight">Service</span>
+      </h2>
+ 
+      <p class="why-para">
+       At Sri Sakthi Construction, we combine affordability, expertise, and transparency to deliver end-to-end construction solutions tailored to your needs. Whether you are building your dream home or a commercial space, we ensure a smooth and hassle-free experience backed by expert guidance and clear, consistent communication.
+      </p>
+ 
+      <!-- Feature list -->
+      <div class="why-features">
+ 
+        <div class="why-feature">
+          <div class="feat-icon">
+            <i class="fa-solid fa-sack-dollar"></i>
+          </div>
+          <div class="feat-text">
+            <h4>Affordable Cost</h4>
+            <p>Clear pricing, no hidden charges, and flexible packages</p>
+          </div>
+        </div>
+ 
+        <div class="why-feature">
+          <div class="feat-icon">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <div class="feat-text">
+            <h4>Our Experience Team</h4>
+            <p>Our team brings years of experience in residential and commercial construction.</p>
+          </div>
+        </div>
+ 
+        <div class="why-feature">
+          <div class="feat-icon">
+            <i class="fa-solid fa-handshake-angle"></i>
+          </div>
+          <div class="feat-text">
+            <h4>Reliable Company</h4>
+            <p>We prioritize communication, quality control, and customer satisfaction.</p>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+ 
+    <!-- ── RIGHT: Images ── -->
+    <div class="why-images">
+      <!-- Orange rounded border frame -->
+      <div class="img-frame">
+        <img src="images/why-building.jpg" alt="Building" class="img-building" />
+      </div>
+      <!-- Circular client photo overlapping bottom-left -->
+      <div class="img-circle">
+        <img src="images/why-client.jpg" alt="Client" />
+      </div>
+    </div>
+ 
+  </div>
+</section>
+
+
+<section class="ts-section">
+  <div class="ts-inner">
+ 
+    <!-- LEFT -->
+    <div class="ts-left">
+      <div class="ts-badge">
+        <i class="fa-solid fa-helmet-safety"></i>
+        <span>Testimonials</span>
+      </div>
+      <h2>What Our Client <span>Say's</span> About Us</h2>
+ 
+      <div class="ts-arrows">
+        <button class="ts-btn" id="tsPrev"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="ts-btn" id="tsNext"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+ 
+      <div class="ts-dots" id="tsDots"></div>
+    </div>
+ 
+    <!-- RIGHT -->
+    <div class="ts-right">
+      <div class="ts-track" id="tsTrack">
+ 
+        <!-- Review 1 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Karthik Sundaram</h4>
+            <span>Home Construction</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">Sri Sakthi Construction built our dream home in Kundrathur and the quality is outstanding. The elevation design is exactly what we imagined and the finishing work is flawless. Pannerselvam sir personally supervised every stage. Highly satisfied!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 2 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Murugan Pillai</h4>
+            <span>Compound Wall</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">We gave Sri Sakthi Construction the contract for our compound wall and gate work. They completed it well within the deadline and the brickwork quality is top class. Very reasonable pricing with zero hidden charges. Thank you team!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 3 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Deepa Rajendran</h4>
+            <span>Interior Design</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">I hired Sri Sakthi Construction for complete interior design of my new flat. The false ceiling, modular kitchen, and wardrobe designs are absolutely stunning. They understood my taste and delivered beyond expectations. Will recommend to all my friends!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 4 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Siva Subramanian</h4>
+            <span>Commercial Construction</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">Sri Sakthi Construction handled our commercial showroom construction from scratch. The RCC work and tiling are of excellent quality. The project was delivered on time and the cost was very transparent. Best commercial builders in Chennai!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 5 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Vijayalakshmi Mohan</h4>
+            <span>Home Renovation</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">We did a full home renovation through Sri Sakthi Construction — new flooring, bathroom tiling, painting, and electrical rewiring. The workers were very disciplined and kept the site clean every day. The result is like a brand new house. Excellent work!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 6 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Anbarasan Sekar</h4>
+            <span>Home Construction</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">Sri Sakthi Construction built our G+2 house in Chennai and every floor is perfectly done. Structural work, plastering, tiles — everything is high quality. Pannerselvam sir kept us updated regularly. Very trustworthy and reliable builders. 100% recommend!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 7 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Babu Natarajan</h4>
+            <span>Compound Wall</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">I am very happy with the compound wall and entrance gate work done by Sri Sakthi Construction for my plot in Kundrathur. The work is solid and the design looks very elegant. They completed the job faster than expected. Great team!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 8 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Nirmala Chandrasekhar</h4>
+            <span>Interior Design</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">The interior design team at Sri Sakthi Construction transformed our living room and master bedroom completely. The TV unit, ceiling design, and lighting setup look premium. They stuck to budget and timeline without any compromise. Truly talented team!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 9 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Riyaz Ahmed</h4>
+            <span>Commercial Construction</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">We awarded Sri Sakthi Construction the contract for our office building and we are fully satisfied. The commercial construction was completed neatly with great attention to detail. The electrical and plumbing work is especially very clean. Wonderful experience!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 10 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Sumathi Venkatesh</h4>
+            <span>Home Renovation</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">Sri Sakthi Construction renovated our old house completely. The bathroom renovation, kitchen tiles, new doors, and painting all look fantastic. Workers were very professional and respectful. We are living in a brand new home now. Superb work at the best price!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 11 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Govindaraj Pillai</h4>
+            <span>Home Construction</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">Built our individual house with Sri Sakthi Construction and the experience was smooth from day one. The blueprint, material selection, and daily progress updates were all very organized. The house is Vastu compliant and beautifully finished. Thank you so much!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 12 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Selvakumar Industries</h4>
+            <span>Compound Wall</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">Sri Sakthi Construction did the compound wall for our factory premises. The work is very strong and durable. They used quality materials and the finishing is neat. Pannerselvam sir personally came and inspected the site multiple times. Very dedicated team!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 13 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Kavitha Suresh</h4>
+            <span>Interior Design</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">The kitchen and dining interior done by Sri Sakthi Construction is absolutely amazing. The modular cabinets, granite countertop, and lighting combination looks like a magazine photo. Their design team listened to every requirement patiently. Very happy with the output!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 14 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Farooq Hussain</h4>
+            <span>Commercial Construction</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">We got our hotel building constructed by Sri Sakthi Construction and the quality is excellent. The RCC columns, staircase, and flooring work are all top class. The project was delivered within budget without any delay. Best commercial builders we have worked with!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+        <!-- Review 15 -->
+        <div class="ts-card">
+          <div class="ts-reviewer">
+            <h4>Thenmozhi Balaji</h4>
+            <span>Home Renovation</span>
+          </div>
+          <div class="ts-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="ts-text">Sri Sakthi Construction renovated our 20-year-old ancestral home beautifully. New flooring, wall cladding, staircase railing, and full exterior painting — all done with great care. The workers treated the house like their own. Outstanding renovation at a very fair cost!</p>
+          <div class="ts-watermark">❝❞</div>
+        </div>
+ 
+      </div><!-- /ts-track -->
+    </div><!-- /ts-right -->
+ 
+  </div>
+</section>
+
+
+<div class="aw-header">
+    <div class="aw-badge">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 2l2.09 6.26L20 9.27l-4.91 4.73L16.18 20 12 17.27 7.82 20l1.09-6L4 9.27l5.91-.01z"/>
+      </svg>
+      Our Awards
+    </div>
+    <h2>Our Proud Achievements</h2>
+    <p>Recognized for excellence in construction, design, and real estate — we take pride in every award that reflects our commitment to quality.</p>
+  </div>
+ 
+  <!-- Awards Grid -->
+  <div class="aw-grid">
+ 
+    <!-- Award 1 -->
+    <div class="aw-card">
+      <div class="aw-photo">
+        <img src="images/award1.jpg" alt="Best Construction Company"/>
+        <div class="aw-trophy">
+          <svg viewBox="0 0 24 24">
+            <path d="M19 5h-2V3H7v2H5C3.9 5 3 5.9 3 7v1c0 2.55 1.92 4.63 4.39 4.94A5.01 5.01 0 0 0 11 15.9V18H8v2h8v-2h-3v-2.1a5.01 5.01 0 0 0 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zm-2 3.8V7h2v1c0 1.3-.84 2.4-2 2.8zM5 8V7h2v3.8C5.84 10.4 5 9.3 5 8z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="aw-info">
+      <h4>NIC Academy Excellence Award</h4>
+<span>National Integrity Cultural Academy & The Peaks Magazine</span>
+      </div>
+    </div>
+ 
+    <!-- Award 2 -->
+    <div class="aw-card">
+      <div class="aw-photo">
+        <img src="images/award2.jpg" alt="Excellence in Interior Design"/>
+        <div class="aw-trophy">
+          <svg viewBox="0 0 24 24">
+            <path d="M19 5h-2V3H7v2H5C3.9 5 3 5.9 3 7v1c0 2.55 1.92 4.63 4.39 4.94A5.01 5.01 0 0 0 11 15.9V18H8v2h8v-2h-3v-2.1a5.01 5.01 0 0 0 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zm-2 3.8V7h2v1c0 1.3-.84 2.4-2 2.8zM5 8V7h2v3.8C5.84 10.4 5 9.3 5 8z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="aw-info">
+      <h4>Sigaram Awards</h4>
+<span>NIC Academy & The Peaks Magazine — 16 Nov 2024</span>
+      </div>
+    </div>
+ 
+    <!-- Award 3 -->
+    <div class="aw-card">
+      <div class="aw-photo">
+        <img src="images/award3.jpg" alt="Top Property Developer"/>
+        <div class="aw-trophy">
+          <svg viewBox="0 0 24 24">
+            <path d="M19 5h-2V3H7v2H5C3.9 5 3 5.9 3 7v1c0 2.55 1.92 4.63 4.39 4.94A5.01 5.01 0 0 0 11 15.9V18H8v2h8v-2h-3v-2.1a5.01 5.01 0 0 0 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zm-2 3.8V7h2v1c0 1.3-.84 2.4-2 2.8zM5 8V7h2v3.8C5.84 10.4 5 9.3 5 8z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="aw-info">
+      <h4>JustDial Certified 2024</h4>
+<span>4.5 Star Rated — Sri Sakthi Construction, Kundrathur</span>
+      </div>
+    </div>
+ 
+  </div>
+
+
+
+
+
+<footer class="footer">
+ 
+  <!-- Wave background image -->
+  <div class="footer-bg">
+    <img src="images/footer-bg.jpg" alt="Footer Background" />
+  </div>
+ 
+  <!-- ── Main Grid ── -->
+  <div class="footer-main">
+ 
+    <!-- Col 1: Brand -->
+    <div class="footer-brand">
+      <a href="#" class="footer-logo">
+        <img src="images/logo.png" alt="Hunter Property Logo" />
+      </a>
+      <p class="footer-desc">
+     Sri Sakthi Construction is a trusted construction company offering residential, commercial, and interior design services. Backed by experienced engineers and skilled architects, we deliver high-quality construction, timely project execution, and transparent management to ensure complete client satisfaction.
+      </p>
+      <p class="footer-newsletter-label">Subscribe Our Newsletter</p>
+      <div class="newsletter-row">
+        <i class="fa-regular fa-envelope"></i>
+        <input type="email" placeholder="Your Email" id="newsletterEmail" />
+        <button class="btn-subscribe" onclick="subscribeNewsletter()">
+          Subscribe <i class="fa-regular fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+ 
+    <!-- Col 2: Company -->
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul class="footer-links">
+         <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+
+      </ul>
+    </div>
+ 
+    <!-- Col 3: Get In Touch -->
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fa-solid fa-phone-volume"></i>
+          </div>
+          <div class="contact-info">
+            <h5>Call Us</h5>
+            <a href="tel:+917550110784">+91- 8807888928</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fa-solid fa-phone-volume"></i>
+          </div>
+          <div class="contact-info">
+            <h5>Call Us</h5>
+            <a href="tel:+917550110784">+91- 8667253481</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="contact-info">
+            <h5>Mail Us</h5>
+            <a href="mailto:hunterproperty14@gmail.com">srisakthiconstructions928@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- Col 4: Locations -->
+    <div class="footer-col">
+      <h4>Our Locations</h4>
+      <div class="location-items">
+     
+        
+        <div class="location-item">
+          <div class="location-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="location-info">
+            <h5>Head-Office</h5>
+            <p>Plot No: 207/2, 6th East Street,
+Sri Metha Nagar, Kundrathur,
+Chennai - 600 069.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  </div><!-- /footer-main -->
+ 
+  <!-- ── Bottom Bar ── -->
+  <div class="footer-bottom">
+    <p class="footer-copy">
+      Copyright <a href="SRI SATHI CONSTRUCTION" target="_blank">SRI SAKTHI CONSTRUCTION</a> All Rights Reserved.
+    </p>
+    <div class="footer-socials">
+      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+  </div>
+ 
+</footer>
+
+
+<script src="js/about.js"></script>
+</body>
+</html>
